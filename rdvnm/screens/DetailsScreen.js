@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Button, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
+import { View, Text, Button, StyleSheet, TextInput, TouchableOpacity, } from 'react-native';
 import { BorderlessButton } from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 
@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
 
+
   },
 
   Text: {
@@ -39,7 +40,7 @@ const styles = StyleSheet.create({
   textinput: {
     height: 40,
     marginBottom: 30,
-    color: "#199187",
+    color: 'black',
     borderBottomColor: '#9381C1',
     borderBottomWidth: 1,
     width: 200,
@@ -47,6 +48,8 @@ const styles = StyleSheet.create({
   button: {
     padding: 15,
     borderRadius: 15,
-    backgroundColor: "#B6A9D8",
-  }
+    backgroundColor: "#B4A0D5",
+    alignItems: 'center',
+  },
+
 });
